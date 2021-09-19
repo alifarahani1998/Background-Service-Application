@@ -14,11 +14,7 @@ void main() {
     home: Home(),
   ));
 
-
-
   BackgroundFetch.registerHeadlessTask(backgroundFetchHeadlessTask);
-
-
 }
 
 

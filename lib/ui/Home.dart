@@ -545,7 +545,6 @@ class Home1 extends State<Home> {
           context: context,
           builder: (BuildContext context) => CustomDialog(
             title: list,
-            description: "Lorem ipsum dolor sit amet,",
             buttonText: "بستن",
           ),
         );

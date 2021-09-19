@@ -4,12 +4,11 @@ import 'package:flutter/material.dart';
 
 
 class CustomDialog extends StatelessWidget {
-  final String description, buttonText;
+  final String buttonText;
   final List<String> title;
 
   CustomDialog({
     @required this.title,
-    @required this.description,
     @required this.buttonText,
   });
 
